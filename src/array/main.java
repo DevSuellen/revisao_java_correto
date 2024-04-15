@@ -13,9 +13,9 @@ public class main {
             String nome_recebido = leitura.nextLine();
             nomes.add(nome_recebido);
             nomes.remove("suellen");
+            System.out.println(nomes);
+            System.out.println("**********");
+            System.out.println(nomes.get(1));
         }
-        System.out.println(nomes);
-        System.out.println("**********");
-        System.out.println(nomes.get(1));
     }
 }
